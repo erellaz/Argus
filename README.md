@@ -7,7 +7,7 @@ The metal parts of the original prototype were machined in Aluminum 6061-T6, whi
 
 The workflow is as follow:
 - Open a parametric part design with OpenSCAD.
-- Optionally, modify, adapt, and if needed a platic prototype is needed, export in STL, slice and 3D print. Important: the $fn line should be uncommented.
+- Optionally, modify, adapt, and if a platic prototype is needed, export in STL, slice and 3D print. Important: the $fn line should be uncommented.
 - Once the 3D printed prototype is verified to be correct, save the OpenSCAD project.
 - Do comment the $fn line in Openscad at that point (or your object will be faceted, which is not appropriate for machining). Import the OpenSCAD project in FreeCAD and export from freecad to any of the machining format (most user will use .step). This intermediate step is necessary as OpenScad cannot export .step at this point.
 - If needed create a drawing of the holes to be taped. I do this by opening the .step in Fusion 360. This is also an excellent QC of the .step. You may also modify it (like add filets.)
