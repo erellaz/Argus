@@ -16,6 +16,6 @@ The workflow is as follow for CNC fabrication:
 For the parts to be metal sheet fabricated:
 - Open a parametric part design with OpenSCAD. It is a 2D design, ie flat.
 - if a 3D printed prototype is needed, use the linear_extrude function to make it a 3D object, which can then be exported as .stl and printed.
-- SImpley export the 2D design (ie without linear_extrude) to .dxf, which is all that is needed for metal sheet fabrication.
+- Simply export the 2D design (ie without linear_extrude) to .dxf, which is all that is needed for metal sheet fabrication.
 - If needed create a drawing of the holes to be taped. I do this by opening the .dxf in Fusion 360. This is also an excellent QC of the .dxf.
 - Send to an online machining shop or to your favorite machinist, for metal sheet fabrication, choose an appropriate thickness.
