@@ -33,7 +33,7 @@ module drill_vane_holes(rlh,spacing,nbrholes){
 
 
 //build the body, remove the cut outs, drill the holes
-linear_extrude(2)
+//linear_extrude(2)
 difference(){
 square(size = [ hm, vl], center = true);
 drill_vane_holes(rlh,spacing,nbrholes);
